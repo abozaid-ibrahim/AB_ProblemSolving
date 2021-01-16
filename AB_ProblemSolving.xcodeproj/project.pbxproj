@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CEF940F25B24BBB006FF336 /* ISHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF940E25B24BBB006FF336 /* ISHappy.swift */; };
+		6CEF941325B2516D006FF336 /* PrimesCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF941225B2516D006FF336 /* PrimesCount.swift */; };
 		6CFF54DA25B0F68A00588D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF54D925B0F68A00588D2D /* AppDelegate.swift */; };
 		6CFF54DC25B0F68A00588D2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF54DB25B0F68A00588D2D /* SceneDelegate.swift */; };
 		6CFF54DE25B0F68A00588D2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF54DD25B0F68A00588D2D /* ContentView.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CEF940E25B24BBB006FF336 /* ISHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISHappy.swift; sourceTree = "<group>"; };
+		6CEF941225B2516D006FF336 /* PrimesCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimesCount.swift; sourceTree = "<group>"; };
 		6CFF54D625B0F68A00588D2D /* AB_ProblemSolving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AB_ProblemSolving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFF54D925B0F68A00588D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CFF54DB25B0F68A00588D2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 			children = (
 				6CFF54F025B0F68C00588D2D /* SubdomainVisits.swift */,
 				6CFF54F225B0F68C00588D2D /* Info.plist */,
+				6CEF940E25B24BBB006FF336 /* ISHappy.swift */,
+				6CEF941225B2516D006FF336 /* PrimesCount.swift */,
 			);
 			path = AB_ProblemSolvingTests;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEF940F25B24BBB006FF336 /* ISHappy.swift in Sources */,
+				6CEF941325B2516D006FF336 /* PrimesCount.swift in Sources */,
 				6CFF54F125B0F68C00588D2D /* SubdomainVisits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
