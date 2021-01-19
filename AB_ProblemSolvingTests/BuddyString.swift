@@ -21,6 +21,7 @@ class BuddyString: XCTestCase {
         a.reserveCapacity(3)
         let ar = A.map { $0 }
         let br = B.map { $0 }
+        
         for i in 0 ..< A.count {
             if a.count > 2 {
                 break
@@ -41,3 +42,10 @@ class BuddyString: XCTestCase {
         XCTAssertEqual(buddyStrings("abac", "abad"), false)
     }
 }
+
+
+ public extension String {
+    subscript(offset: Int) -> Character {
+        self[index(startIndex, offsetBy: offset)]
+    }
+ }
