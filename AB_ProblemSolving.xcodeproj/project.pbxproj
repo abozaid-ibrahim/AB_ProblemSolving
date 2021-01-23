@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		6C2BF07325B8E554009894F6 /* FactorialZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2BF07225B8E554009894F6 /* FactorialZeros.swift */; };
 		6C49DDC225B6285B002BAA3B /* ThirdMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49DDC125B6285B002BAA3B /* ThirdMax.swift */; };
+		6C56F03525BB8C4C00C17F17 /* FoundTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C56F03425BB8C4C00C17F17 /* FoundTownJudge.swift */; };
 		6C740BBA25B3A1AE0079A872 /* LeetCodeBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C740BB925B3A1AE0079A872 /* LeetCodeBank.swift */; };
 		6C811D0625B79A280087C273 /* ExelSheetColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C811D0525B79A280087C273 /* ExelSheetColumn.swift */; };
 		6C979BA825B4FB4600D13F04 /* BuddyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C979BA725B4FB4600D13F04 /* BuddyString.swift */; };
+		6CA22A5525BA3A4E00443F7E /* DeckCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22A5425BA3A4E00443F7E /* DeckCards.swift */; };
+		6CE4E3A125BCDD7300E4D52F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4E3A025BCDD7300E4D52F /* Test.swift */; };
+		6CE4E3A325BCDD9700E4D52F /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4E3A225BCDD9700E4D52F /* TreeNode.swift */; };
 		6CEF940F25B24BBB006FF336 /* ISHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF940E25B24BBB006FF336 /* ISHappy.swift */; };
 		6CEF941325B2516D006FF336 /* PrimesCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF941225B2516D006FF336 /* PrimesCount.swift */; };
 		6CFF54DA25B0F68A00588D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF54D925B0F68A00588D2D /* AppDelegate.swift */; };
@@ -36,9 +40,13 @@
 /* Begin PBXFileReference section */
 		6C2BF07225B8E554009894F6 /* FactorialZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialZeros.swift; sourceTree = "<group>"; };
 		6C49DDC125B6285B002BAA3B /* ThirdMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMax.swift; sourceTree = "<group>"; };
+		6C56F03425BB8C4C00C17F17 /* FoundTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundTownJudge.swift; sourceTree = "<group>"; };
 		6C740BB925B3A1AE0079A872 /* LeetCodeBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeBank.swift; sourceTree = "<group>"; };
 		6C811D0525B79A280087C273 /* ExelSheetColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExelSheetColumn.swift; sourceTree = "<group>"; };
 		6C979BA725B4FB4600D13F04 /* BuddyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyString.swift; sourceTree = "<group>"; };
+		6CA22A5425BA3A4E00443F7E /* DeckCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCards.swift; sourceTree = "<group>"; };
+		6CE4E3A025BCDD7300E4D52F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		6CE4E3A225BCDD9700E4D52F /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		6CEF940E25B24BBB006FF336 /* ISHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISHappy.swift; sourceTree = "<group>"; };
 		6CEF941225B2516D006FF336 /* PrimesCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimesCount.swift; sourceTree = "<group>"; };
 		6CFF54D625B0F68A00588D2D /* AB_ProblemSolving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AB_ProblemSolving.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +132,10 @@
 				6C49DDC125B6285B002BAA3B /* ThirdMax.swift */,
 				6C811D0525B79A280087C273 /* ExelSheetColumn.swift */,
 				6C2BF07225B8E554009894F6 /* FactorialZeros.swift */,
+				6CA22A5425BA3A4E00443F7E /* DeckCards.swift */,
+				6C56F03425BB8C4C00C17F17 /* FoundTownJudge.swift */,
+				6CE4E3A025BCDD7300E4D52F /* Test.swift */,
+				6CE4E3A225BCDD9700E4D52F /* TreeNode.swift */,
 			);
 			path = AB_ProblemSolvingTests;
 			sourceTree = "<group>";
@@ -241,12 +253,16 @@
 			files = (
 				6C979BA825B4FB4600D13F04 /* BuddyString.swift in Sources */,
 				6CEF940F25B24BBB006FF336 /* ISHappy.swift in Sources */,
+				6C56F03525BB8C4C00C17F17 /* FoundTownJudge.swift in Sources */,
 				6C49DDC225B6285B002BAA3B /* ThirdMax.swift in Sources */,
+				6CA22A5525BA3A4E00443F7E /* DeckCards.swift in Sources */,
+				6CE4E3A125BCDD7300E4D52F /* Test.swift in Sources */,
 				6CEF941325B2516D006FF336 /* PrimesCount.swift in Sources */,
 				6C811D0625B79A280087C273 /* ExelSheetColumn.swift in Sources */,
 				6C740BBA25B3A1AE0079A872 /* LeetCodeBank.swift in Sources */,
 				6CFF54F125B0F68C00588D2D /* SubdomainVisits.swift in Sources */,
 				6C2BF07325B8E554009894F6 /* FactorialZeros.swift in Sources */,
+				6CE4E3A325BCDD9700E4D52F /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
