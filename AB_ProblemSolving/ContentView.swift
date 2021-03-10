@@ -7,15 +7,11 @@
 //
 
 import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+public extension Array {
+    func chunked(into size: Int) -> [[Element]] {
+        return stride(from: 0, to: count, by: size).map {
+            print($0)
+            Array(self[$0 ..< Swift.min($0 + size, count)])
+        }
     }
 }
